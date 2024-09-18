@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="header-content">
+        <header>
+          <a href="index.html" style="text-decoration: none;"><h2  class="brand-name">Purely Modest</h2></a> 
+          <h2 class="contactInfo">Worldwide Shipping Through Instagram Dm</h2>
+        </header>
+        
+        <div class="container containerr">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="validationDefault01" class="form-label">First name</label>
+              <input type="text" class="form-control"  required id="firstName">
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault02" class="form-label">Last name</label>
+              <input type="text" class="form-control"  required id="lastName">
+            </div>
+            <div class="col-md-12">
+              <label for="validationDefaultUsername" class="form-label">Email</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control"   aria-describedby="inputGroupPrepend2" required id="emailLabel">
+              </div>
+            </div>
+
+            <div class="col-md-12">
+                <label for="validationDefaultUsername" class="form-label">Password</label>
+                <div class="input-group">
+                  <input type="password" class="form-control"  aria-describedby="inputGroupPrepend2" required id="passwordLabel">
+                </div>
+              </div>
+
+
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit" id="submitButton">Submit</button>
+              </div>
+
+              <p >Do you have an account? <a href="login.html" class="notMember">Login</a></p>
+       
+          </form>
+        </div>
+
+    </div><!-- /header-content -->
+
+    <script src="js/register.js"></script>
+</body>
+
+</html>
